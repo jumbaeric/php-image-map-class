@@ -8,7 +8,7 @@ This is a simple PHP class that generates an HTML image map. An image map allows
 **generateMap**: Generates the HTML code for the image map. It takes the file path of the image as a parameter and returns the complete HTML code that includes the image and the map with defined areas.
 
 // Example usage:
-`
+```
 $imageMapGenerator = new ImageMapGenerator();
 $imageMapGenerator->addArea(10, 20, 100, 80, 'https://example.com/link1');
 $imageMapGenerator->addArea(120, 30, 180, 90, 'https://example.com/link2');
@@ -17,4 +17,4 @@ $imagePath = 'path/to/your/image.jpg';
 $imageMapHtml = $imageMapGenerator->generateMap($imagePath);
 
 echo $imageMapHtml;
-`
+```
